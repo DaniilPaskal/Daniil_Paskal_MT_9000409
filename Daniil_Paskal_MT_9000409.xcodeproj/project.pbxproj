@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC089DE52B9428B800CED398 /* Lab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC089DE42B9428B800CED398 /* Lab3.swift */; };
+		AC089DE92B9444B800CED398 /* Canada.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC089DE82B9444B800CED398 /* Canada.swift */; };
+		AC089DEB2B9444DA00CED398 /* Quadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC089DEA2B9444DA00CED398 /* Quadratic.swift */; };
+		AC10A3D52B9422C600AB3F2C /* Lab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A3D42B9422C600AB3F2C /* Lab2.swift */; };
 		AC5AD44A2B8ADC49009F3E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5AD4492B8ADC49009F3E30 /* AppDelegate.swift */; };
 		AC5AD44C2B8ADC49009F3E30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5AD44B2B8ADC49009F3E30 /* SceneDelegate.swift */; };
 		AC5AD44E2B8ADC49009F3E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5AD44D2B8ADC49009F3E30 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC089DE42B9428B800CED398 /* Lab3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3.swift; sourceTree = "<group>"; };
+		AC089DE82B9444B800CED398 /* Canada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canada.swift; sourceTree = "<group>"; };
+		AC089DEA2B9444DA00CED398 /* Quadratic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic.swift; sourceTree = "<group>"; };
+		AC10A3D42B9422C600AB3F2C /* Lab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab2.swift; sourceTree = "<group>"; };
 		AC5AD4462B8ADC49009F3E30 /* Daniil_Paskal_MT_9000409.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daniil_Paskal_MT_9000409.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5AD4492B8ADC49009F3E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC5AD44B2B8ADC49009F3E30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				AC5AD4522B8ADC4A009F3E30 /* Assets.xcassets */,
 				AC5AD4542B8ADC4A009F3E30 /* LaunchScreen.storyboard */,
 				AC5AD4572B8ADC4A009F3E30 /* Info.plist */,
+				AC10A3D42B9422C600AB3F2C /* Lab2.swift */,
+				AC089DE42B9428B800CED398 /* Lab3.swift */,
+				AC089DE82B9444B800CED398 /* Canada.swift */,
+				AC089DEA2B9444DA00CED398 /* Quadratic.swift */,
 			);
 			path = Daniil_Paskal_MT_9000409;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC089DE52B9428B800CED398 /* Lab3.swift in Sources */,
 				AC5AD44E2B8ADC49009F3E30 /* ViewController.swift in Sources */,
 				AC5AD44A2B8ADC49009F3E30 /* AppDelegate.swift in Sources */,
+				AC10A3D52B9422C600AB3F2C /* Lab2.swift in Sources */,
 				AC5AD44C2B8ADC49009F3E30 /* SceneDelegate.swift in Sources */,
+				AC089DE92B9444B800CED398 /* Canada.swift in Sources */,
+				AC089DEB2B9444DA00CED398 /* Quadratic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +309,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
