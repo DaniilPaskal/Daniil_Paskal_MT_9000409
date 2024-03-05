@@ -9,7 +9,7 @@ import UIKit
 
 class Canada: UIViewController {
     // Array of city names
-    var cities: [String] = ["Calgary", "Halifax", "Montreal", "Toronto", "Vancouver", "Winnipeg"]
+    let cities: [String] = ["Calgary", "Halifax", "Montreal", "Toronto", "Vancouver", "Winnipeg"]
 
     // City image
     @IBOutlet weak var canadaImage: UIImageView!
@@ -23,7 +23,7 @@ class Canada: UIViewController {
     // Button to find city
     @IBAction func findButton(_ sender: Any) {
         // Get city name from field and capitalize
-        var city = cityField.text?.capitalized
+        let city = cityField.text?.capitalized
         
         // Check if city name in cities array
         if (cities.contains(city!)) {

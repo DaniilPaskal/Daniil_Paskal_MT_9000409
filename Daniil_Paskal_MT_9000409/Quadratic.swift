@@ -9,7 +9,7 @@ import UIKit
 
 class Quadratic: UIViewController {
     // Dictionary of message strings
-    var messages: [String: String] = ["a": "Enter a value for A, B, and C to find X.",
+    let messages: [String: String] = ["a": "Enter a value for A, B, and C to find X.",
         "b": "The value you entered for A is invalid.",
         "c": "The value you entered for B is invalid.",
         "d": "The value you entered for C is invalid.",
@@ -110,7 +110,6 @@ class Quadratic: UIViewController {
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
-
 
     // Call when tap recognized
     @objc func dismissKeyboard() {
